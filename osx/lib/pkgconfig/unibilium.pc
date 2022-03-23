@@ -1,0 +1,9 @@
+libdir=/usr/local/Cellar/unibilium/2.1.1/lib
+includedir=/usr/local/Cellar/unibilium/2.1.1/include
+version=2.1.1
+
+Name: unibilium
+Description: terminfo parser and utility functions
+Version: ${version}
+Libs: -L${libdir} -lunibilium
+Cflags: -I${includedir}

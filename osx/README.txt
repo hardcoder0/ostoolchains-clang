@@ -1,0 +1,1 @@
+<local clang compiler>=v12> --target=x86_64-apple-darwin-macho -I <osx tool chain path>/MacOSX.sdk/usr/include -isysroot <osx tool chain path>/MacOSX.sdk -lto_library -lcrt1.o <osx tool chain path>/libclang_rt.osx.a -fuse-ld=lld <insert file>

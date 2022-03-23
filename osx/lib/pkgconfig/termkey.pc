@@ -1,0 +1,8 @@
+libdir=/usr/local/Cellar/libtermkey/0.22/lib
+includedir=/usr/local/Cellar/libtermkey/0.22/include
+
+Name: termkey
+Description: Abstract terminal key input library
+Version: 0.22
+Libs: -L${libdir} -ltermkey
+Cflags: -I${includedir}
